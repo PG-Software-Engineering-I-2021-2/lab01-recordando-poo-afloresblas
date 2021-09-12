@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="lab01-recordando-poo-afloresblas" target="16" />
+      <module name="lab01-recordando-poo-afloresblas" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

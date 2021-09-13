@@ -1,4 +1,4 @@
-package main.java;
+package cs.ingsoftware;
 
 public class Vehiculo {
     protected double capacidadCombustible;
@@ -11,18 +11,19 @@ public class Vehiculo {
         this.consumoPorKilometro = consumoPorKilometro;
     }
 
-    public void abastecer(double combustible) {
+    public String abastecer(double combustible) {
         this.cantidadCombustible += combustible;
+        return "";
     }
 
-    public void viajar(int distancia) {
+    public String viajar(int distancia) {
         double combustibleRequerido = this.consumoPorKilometro * distancia;
         String clase = this.getClass().getSimpleName();
         if (combustibleRequerido > this.cantidadCombustible) {
-            System.out.println(clase + " necesita reabastecimiento de combustible");
+            return clase + " necesita reabastecimiento de combustible";
         } else {
             this.cantidadCombustible -= combustibleRequerido;
-            System.out.println(clase + " viajo " + String.format(" %.1f", (double)distancia) + " km y aún tiene " + String.format("%.2f", this.cantidadCombustible) + " de combustible");
+            return clase + " viajo" + String.format(" %.1f", (double)distancia) + " km y aun tiene " + String.format("%.2f", this.cantidadCombustible) + " de combustible";
         }
     }
 }

@@ -1,4 +1,4 @@
-package main.java;
+package cs.ingsoftware;
 
 public class Automovil extends Vehiculo{
     public Automovil(double capacidadCombustible, double cantidadCombustible, double consumoPorKilometro) {
@@ -6,12 +6,12 @@ public class Automovil extends Vehiculo{
     }
 
     @Override
-    public void abastecer(double combustible) {
+    public String abastecer(double combustible) {
         if (combustible + this.cantidadCombustible <= this.capacidadCombustible) {
             super.abastecer(combustible);
-            System.out.println("La cantidad de combustible del automóvil es: " + String.format("%.2f", this.cantidadCombustible));
+            return "La cantidad de combustible del automovil es: " + String.format("%.2f", this.cantidadCombustible);
         } else {
-            System.out.println("Automóvil no se puede reabastecer el tanque, está lleno.");
+            return "Automovil no puede reabastecer el tanque, esta lleno";
         }
     }
 }

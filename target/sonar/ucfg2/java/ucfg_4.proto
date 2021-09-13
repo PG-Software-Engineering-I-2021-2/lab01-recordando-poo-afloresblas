@@ -1,0 +1,30 @@
+
+4cs.ingsoftware.Camion#abastecer(D)Ljava/lang/String;ª
+ŸC:/Users/flore/Documents/Utec/ME-2021-2/IngenierÃ­a de Software/Semana 1/Laboratorio1/lab01-recordando-poo-afloresblas/src/main/java/cs/ingsoftware/Camion.java	 	("2"1*Þ
+2ª
+ŸC:/Users/flore/Documents/Utec/ME-2021-2/IngenierÃ­a de Software/Semana 1/Laboratorio1/lab01-recordando-poo-afloresblas/src/main/java/cs/ingsoftware/Camion.java (Â
+¿
+ª
+ŸC:/Users/flore/Documents/Utec/ME-2021-2/IngenierÃ­a de Software/Semana 1/Laboratorio1/lab01-recordando-poo-afloresblas/src/main/java/cs/ingsoftware/Camion.javaB (q
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+%.2f*
+""œ
+™
+ª
+ŸC:/Users/flore/Documents/Utec/ME-2021-2/IngenierÃ­a de Software/Semana 1/Laboratorio1/lab01-recordando-poo-afloresblas/src/main/java/cs/ingsoftware/Camion.java (q
+%1java.lang.String"__concat*.,
+*La cantidad de combustible del camion es: *
+
+%0java.lang.String"Ç
+ª
+ŸC:/Users/flore/Documents/Utec/ME-2021-2/IngenierÃ­a de Software/Semana 1/Laboratorio1/lab01-recordando-poo-afloresblas/src/main/java/cs/ingsoftware/Camion.java (r
+
+%1java.lang.String*—
+1ª
+ŸC:/Users/flore/Documents/Utec/ME-2021-2/IngenierÃ­a de Software/Semana 1/Laboratorio1/lab01-recordando-poo-afloresblas/src/main/java/cs/ingsoftware/Camion.java (F"ä
+ª
+ŸC:/Users/flore/Documents/Utec/ME-2021-2/IngenierÃ­a de Software/Semana 1/Laboratorio1/lab01-recordando-poo-afloresblas/src/main/java/cs/ingsoftware/Camion.java (G53
+1Camion no puede reabastecer el tanque, esta lleno:
+""B
+cs.ingsoftware.Camion
